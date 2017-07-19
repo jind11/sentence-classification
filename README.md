@@ -49,7 +49,7 @@ The test accuracy resultes listed here are average results of 10 folds cross val
 | ------------- |:-------------:|
 | fasttext      | 78.1 |
 | cnn      |   80.1    |
-| cnn-rnn | 82.3      |
+| cnn-rnn | 82.2      |
 
 To be noted, the fasttext model does not use pre-trained word embeddings and instead uses random initialized word embeddings (bigrams and trigrams do not have pre-trained word embeddings), which should be the main reason of relatively lower test accuracy. To demonstrate this statement, we specially trained the cnn model with random initialized word embeddings and list the comparison results here:
 
